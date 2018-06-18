@@ -5,3 +5,14 @@
 server.name: kibana
 server.host: "0"
 elasticsearch.url: http://elasticsearch:9200
+sentinl:
+  settings:
+    email:
+      active: true
+      host: 'HOST'
+      user: 'USER'
+      password: 'PASSWORD'
+      port: 587
+      tls: true
+      domain: 'DOMAIN'
+      timeout: 10000
